@@ -1,0 +1,55 @@
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  darkMode: 'class',
+  theme: {
+    fontFamily: {
+      sora:["Sora"],
+    },
+    extend: {
+      colors: {
+        "purple-200":"#DAC7FC",
+        "purple-300":"#CAACFF",
+        "purple-500":"#6B49CD",
+        "purple-700":"#5D0096",
+        "purple-900":"#210035",
+        "pink-500":"#AD26FF",
+      },
+      fontSize: {
+        13: "13px",
+        14: "14px",
+        15: "15px",
+        16: "16px",
+        17: "17px",
+        18: "18px",
+        19: "19px",
+        20: "20px",
+        21: "21px",
+        22: "22px",
+        23: "23px",
+        24: "24px",
+        25: "25px",
+        26: "26px",
+        27: "27px",
+        28: "28px",
+        29: "29px",
+        30: "30px",
+        31: "31px",
+        32: "32px",
+        33: "33px",
+        34: "34px",
+        35: "35px",
+        36: "36px",
+        37: "37px",
+        38: "38px",
+        39: "39px",
+        40: "40px",
+      },
+      boxShadow: {
+        "md":"6px 6px 16px 0 rgba(0, 0, 0, 0.25),-4px -4px 12px 0 rgba(255, 255, 255, 0.3);"
+      },
+    },
+  },
+  plugins: [],
+}
